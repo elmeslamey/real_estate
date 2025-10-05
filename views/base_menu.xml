@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!--   Main menu  -->
+    <menuitem
+            id="real_estate_root_menu"
+            name="Real Estate"
+
+    />
+    <!--   submenu without action  -->
+    <menuitem
+            id="properties_menu"
+            name="properties"
+            parent="real_estate_root_menu"
+    />
+    <menuitem
+            id="configration_menu"
+            name="Configration"
+            parent="real_estate_root_menu"
+    />
+</odoo>
